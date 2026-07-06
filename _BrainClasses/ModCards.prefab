@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7399570842328788235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3499246863282657306}
+  - component: {fileID: 114078155310181060}
+  m_Layer: 0
+  m_Name: ModCards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3499246863282657306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7399570842328788235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114078155310181060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7399570842328788235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e326b904100efdc4ea01e9bcde225aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 114421384111938668, guid: 3a7ddf111f182ee41885f0ec2a77854a, type: 3}
+  - {fileID: 114421384111938668, guid: f394d855e1978014a8f082d16bdc2333, type: 3}
+  - {fileID: 114421384111938668, guid: 16262405845b49842a00b2044751a3f1, type: 3}
+  - {fileID: 114421384111938668, guid: e8757b08c51a622468fe1f6e969f87dd, type: 3}
+  - {fileID: 114421384111938668, guid: ea749186dfb08e24ab7a328b863ad883, type: 3}
+  - {fileID: 114421384111938668, guid: 159a336c7371a7942a1feb39539f88a0, type: 3}
+  - {fileID: 114421384111938668, guid: 8f0676e8568ca2f468753a1f503feb20, type: 3}
+  - {fileID: 114421384111938668, guid: f7adc2ffe70f9cc40a010694b45d6580, type: 3}
+  - {fileID: 114421384111938668, guid: 9ad699474777ef74aa83799a6f87fba2, type: 3}
+  - {fileID: 114421384111938668, guid: 14dbb0665045fa246b730856b0296fc3, type: 3}
+  - {fileID: 114421384111938668, guid: 04d9cefa5e474784dbe74089df728e27, type: 3}
+  - {fileID: 114421384111938668, guid: bda4383d5569e124394811d2ca139815, type: 3}
+  - {fileID: 114421384111938668, guid: cf96ac22e81598443b7d1bc6912c7783, type: 3}
+  - {fileID: 114421384111938668, guid: dc5959ac48e613e4b8747c6497478183, type: 3}
+  - {fileID: 114421384111938668, guid: 1dca881e286062544953aafdd87db038, type: 3}
+  hiddenCards: []

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f53b16b43f44db45911ff17aee4901d, type: 3}
+  m_Name: ModInfo
+  m_EditorClassIdentifier: 
+  ModName: Brain_Classes
+  Author: 
+  Version: 1.0.4
+  WebsiteURL: 
+  Description: 
+  BeforeBuildCommand: 
+  AfterBuildCommand: 
+  Dependencies:
+  - willis81808-UnboundLib-3.2.14
+  - Pykess-ModdingUtils-0.4.8
+  - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10
+  - Root-Classes_Manager_Reborn-1.5.5
+  - willuwontu-EvenSpreadPatch-0.0.2
+  - Sfinford-ProjectileChargePatch-0.0.1
+  DllDependencies: []
+  AssemblyDefinitionDependencies: []
+  Icon: {fileID: 2800000, guid: 226f92dd1376f9b4487257e6c22962df, type: 3}
+  IncludeInAllExports: 1
