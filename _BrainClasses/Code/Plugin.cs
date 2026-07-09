@@ -7,7 +7,7 @@ using UnityEngine;
 [BepInDependency("pykess.rounds.plugins.moddingutils")]
 [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch")]
 [BepInDependency("root.classes.manager.reborn")]
-[BepInPlugin("brain.classes.mod", "Brain Classes", "1.0.4")]
+[BepInPlugin("brain.classes.mod", "Brain Classes", "1.1.0")]
 [BepInProcess("Rounds.exe")]
 
 public class Plugin : BaseUnityPlugin {
@@ -20,4 +20,4 @@ public class Plugin : BaseUnityPlugin {
     void Start() {
         asset.LoadAsset<GameObject>("ModCards").GetComponent<CardHolder>().RegisterCards();
     }
-}
+} 

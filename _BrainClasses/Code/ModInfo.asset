@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModName: Brain_Classes
   Author: 
-  Version: 1.0.4
+  Version: 1.0.5
   WebsiteURL: 
   Description: 
   BeforeBuildCommand: 

@@ -97,7 +97,7 @@ MonoBehaviour:
   - positive: 1
     amount: -15%
     simepleAmount: 0
-    stat: Reload Speed
+    stat: Reload Time
   rarity: 2
   cardArt: {fileID: 8368532582125875477, guid: 8f7fd97f734208448a848da8ba46df45, type: 3}
   sprite: {fileID: 0}

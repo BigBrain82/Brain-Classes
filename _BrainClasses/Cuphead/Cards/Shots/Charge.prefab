@@ -94,11 +94,11 @@ MonoBehaviour:
   - positive: 1
     amount: +400%
     simepleAmount: 0
-    stat: Damage (Max Charge)
+    stat: DMG (Charged)
   - positive: 1
     amount: +100%
     simepleAmount: 0
-    stat: Bullet Speed (Max Charge)
+    stat: Speed (Charged)
   rarity: 1
   cardArt: {fileID: 3811286065601277591, guid: 9eb7044ff4ea91143bbb5870c873ba4e, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 28f9bf7e714be9f4caacd5a17f357a1a, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 8368532582125875477, guid: 78a7bfdffaf27f24ea843323a5360df0, type: 3}
   weaponName: Charge
   ignoreSoundChanges: 0

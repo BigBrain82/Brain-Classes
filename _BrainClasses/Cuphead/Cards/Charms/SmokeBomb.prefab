@@ -91,13 +91,17 @@ MonoBehaviour:
     amount: +1
     simepleAmount: 0
     stat: Block
+  - positive: 0
+    amount: +0.5
+    simepleAmount: 0
+    stat: Block Cooldown
   rarity: 1
   cardArt: {fileID: 8368532582125875477, guid: 265c9c34884d7dd43b23be804d660c25, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
   categories: []
-  allowMultiple: 0
+  allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
   colorTheme: 0
@@ -259,7 +263,7 @@ MonoBehaviour:
   cooldown: 0
   counter: 1000
   cdMultiplier: 1
-  cdAdd: 0
+  cdAdd: 0.5
   forceToAdd: 0
   forceToAddUp: 0
   autoBlock: 0

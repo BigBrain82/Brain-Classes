@@ -92,7 +92,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Projectiles
   - positive: 1
-    amount: -55%
+    amount: +55%
     simepleAmount: 0
     stat: Attack Speed
   - positive: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 8d33cf53369c9664a8d0ff9acdd7cce3, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 8368532582125875477, guid: 32de65b0ab24063408a038b46a80dfc5, type: 3}
   weaponName: Spread
   ignoreSoundChanges: 0

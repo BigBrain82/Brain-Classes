@@ -348,7 +348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: a28902f6222a17f4d8c1d7005d16c6d6, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 8368532582125875477, guid: 278a5118c0534774eafa3a1957e08369, type: 3}
   weaponName: Twist-Up
   ignoreSoundChanges: 0

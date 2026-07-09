@@ -15,7 +15,7 @@ public class CardHolder : MonoBehaviour {
         }
         foreach (var card in hiddenCards) {
             CustomCard.RegisterUnityCard(card.gameObject, Plugin.modInitials, card.cardName, false, null);
-            ModdingUtils.Utils.Cards.instance.AddHiddenCard(card);
+            ModdingUtils.Utils.Cards.instance.AddHiddenCard(card); 
         }
     }
 }

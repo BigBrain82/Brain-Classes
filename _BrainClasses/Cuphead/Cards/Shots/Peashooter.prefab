@@ -87,7 +87,7 @@ MonoBehaviour:
     When equppied:'
   cardStats:
   - positive: 1
-    amount: -15%
+    amount: +15%
     simepleAmount: 0
     stat: Attack Speed
   - positive: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Bullet Speed
   - positive: 1
-    amount: 0
+    amount: Zero
     simepleAmount: 0
     stat: Gravity
   rarity: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 98dbc9efc77c4174a90aa178d7d2b33a, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 3811286065601277591, guid: 20fdade664554c4499a014a184976ea8, type: 3}
   weaponName: Peashooter
   ignoreSoundChanges: 0

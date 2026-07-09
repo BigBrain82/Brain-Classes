@@ -85,7 +85,23 @@ MonoBehaviour:
   cardDestription: 'Full-screen piercing 3-way shot.
 
     When equppied:'
-  cardStats: []
+  cardStats:
+  - positive: 0
+    amount: -50%
+    simepleAmount: 0
+    stat: Damage
+  - positive: 1
+    amount: +35%
+    simepleAmount: 0
+    stat: Attack Speed
+  - positive: 1
+    amount: +2
+    simepleAmount: 0
+    stat: Projectiles
+  - positive: 1
+    amount: Wallclip
+    simepleAmount: 0
+    stat: True
   rarity: 2
   cardArt: {fileID: 3811286065601277591, guid: 656b518b3ea80e049bbab6cb0d759d2c, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -336,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 19c88bbcefbeffa4bb5fe21338bd8a34, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 8368532582125875477, guid: 24ec440d1db486948b52aa2be805bd87, type: 3}
   weaponName: Converge
   ignoreSoundChanges: 0

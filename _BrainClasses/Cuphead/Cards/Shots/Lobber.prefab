@@ -91,7 +91,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Damage
   - positive: 0
-    amount: +10%
+    amount: -10%
     simepleAmount: 0
     stat: Attack Speed
   - positive: 1
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 6cfcc2be1e5a2304bbe0a3775653da6c, type: 3}
   applyCardStats: 1
-  inactiveReloadTimeMultiplier: 0
+  inactiveReloadTimeMultiplier: 1
   icon: {fileID: 8368532582125875477, guid: 7d17c5be282b6444fbd92a3829a9ebb4, type: 3}
   weaponName: Lobber
   ignoreSoundChanges: 0
