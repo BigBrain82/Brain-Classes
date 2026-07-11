@@ -152,7 +152,7 @@ MonoBehaviour:
   percentageDamage: 0
   cos: 0
   slow: 0
-  chargeDamageMultiplier: 4
+  chargeDamageMultiplier: 2.5
   chargeSpreadTo: 0
   chargeEvenSpreadTo: 0
   chargeSpeedTo: 1.1

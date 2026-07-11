@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114287140722417366}
   - component: {fileID: 114984105891724050}
+  - component: {fileID: 114972030406709194}
+  - component: {fileID: 5241174266737376342}
   m_Layer: 0
   m_Name: Charge
   m_TagString: Untagged
@@ -92,14 +94,14 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Damage
   - positive: 1
-    amount: +400%
+    amount: +250%
     simepleAmount: 0
     stat: DMG (Charged)
   - positive: 1
     amount: +100%
     simepleAmount: 0
     stat: Speed (Charged)
-  rarity: 1
+  rarity: 2
   cardArt: {fileID: 3811286065601277591, guid: 9eb7044ff4ea91143bbb5870c873ba4e, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
@@ -354,3 +356,34 @@ MonoBehaviour:
   weaponName: Charge
   ignoreSoundChanges: 0
   disableBasicGun: 0
+--- !u!114 &114972030406709194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 7ffefa87dd471484ba9e89c79be7c11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Cuphead
+  CategoryPath: 
+  categoryAsset: {fileID: 0}
+  Priority: 0
+--- !u!114 &5241174266737376342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 991995914b3f20746bb26e5e0c60a241,
+    type: 3}

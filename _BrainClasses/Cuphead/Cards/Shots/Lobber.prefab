@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114287140722417366}
   - component: {fileID: 114548771096881966}
+  - component: {fileID: 114750614616297970}
+  - component: {fileID: 2669665518877460352}
   m_Layer: 0
   m_Name: Lobber
   m_TagString: Untagged
@@ -357,3 +359,34 @@ MonoBehaviour:
   weaponName: Lobber
   ignoreSoundChanges: 0
   disableBasicGun: 0
+--- !u!114 &114750614616297970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 7ffefa87dd471484ba9e89c79be7c11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Cuphead
+  CategoryPath: 
+  categoryAsset: {fileID: 0}
+  Priority: 0
+--- !u!114 &2669665518877460352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 4a1ec8e285028de41bac4ef1f8afde90,
+    type: 3}

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class EXScript : MonoBehaviour
+using UnboundLib;
+public class EX : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

@@ -19,6 +19,8 @@ GameObject:
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114287140722417366}
   - component: {fileID: 114121524988998966}
+  - component: {fileID: 114898302861851600}
+  - component: {fileID: 671667406412272113}
   m_Layer: 0
   m_Name: Spread
   m_TagString: Untagged
@@ -358,3 +360,34 @@ MonoBehaviour:
   weaponName: Spread
   ignoreSoundChanges: 0
   disableBasicGun: 0
+--- !u!114 &114898302861851600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 7ffefa87dd471484ba9e89c79be7c11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Cuphead
+  CategoryPath: 
+  categoryAsset: {fileID: 0}
+  Priority: 0
+--- !u!114 &671667406412272113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: a073b38236ec40e4492d33710f319da4,
+    type: 3}

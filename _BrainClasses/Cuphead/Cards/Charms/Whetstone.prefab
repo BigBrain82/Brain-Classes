@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114389596370188310}
+  - component: {fileID: 114509100332697778}
+  - component: {fileID: 7414680851552828852}
   m_Layer: 0
   m_Name: Whetstone
   m_TagString: Untagged
@@ -327,3 +329,34 @@ MonoBehaviour:
   multilistCount: 0
   whiteList: []
   blackList: []
+--- !u!114 &114509100332697778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 7ffefa87dd471484ba9e89c79be7c11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Cuphead
+  CategoryPath: 
+  categoryAsset: {fileID: 0}
+  Priority: 0
+--- !u!114 &7414680851552828852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 44f2de77f2548474c9d5b8576442d1b8,
+    type: 3}

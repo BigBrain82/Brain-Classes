@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 114027849275758738}
+  - component: {fileID: 114432667058763696}
+  - component: {fileID: 4356733088349012794}
   m_Layer: 0
   m_Name: SmokeBomb
   m_TagString: Untagged
@@ -331,3 +333,34 @@ MonoBehaviour:
   multilistCount: 0
   whiteList: []
   blackList: []
+--- !u!114 &114432667058763696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -547354468, guid: 7ffefa87dd471484ba9e89c79be7c11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  categoryPath: Cuphead
+  CategoryPath: 
+  categoryAsset: {fileID: 0}
+  Priority: 0
+--- !u!114 &4356733088349012794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 19cd922c560b004419b1a9c7c16d4d8b,
+    type: 3}

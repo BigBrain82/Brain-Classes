@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModName: Brain_Classes
   Author: 
-  Version: 1.0.5
+  Version: 1.0.10
   WebsiteURL: 
   Description: 
   BeforeBuildCommand: 
@@ -26,7 +26,10 @@ MonoBehaviour:
   - Root-Classes_Manager_Reborn-1.5.5
   - willuwontu-EvenSpreadPatch-0.0.2
   - Sfinford-ProjectileChargePatch-0.0.1
+  - AALUND13-ToggleCardsCategories-1.5.1
+  - RS_Mind-FancyCardBar-1.3.4
+  - RS_Mind-WeaponsManager-1.4.4
   DllDependencies: []
   AssemblyDefinitionDependencies: []
-  Icon: {fileID: 2800000, guid: 226f92dd1376f9b4487257e6c22962df, type: 3}
+  Icon: {fileID: 2800000, guid: c52540273bd09b14b91c0c55e900f17d, type: 3}
   IncludeInAllExports: 1

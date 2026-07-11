@@ -167,7 +167,7 @@ MonoBehaviour:
   useCharge: 0
   dontAllowAutoFire: 0
   objectsToSpawn: []
-  projectileColor: {r: 0.025231415, g: 0.5546936, b: 0.764151, a: 1}
+  projectileColor: {r: 0, g: 0.43126693, b: 0.6037736, a: 1}
   waveMovement: 0
   teleport: 0
   spawnSkelletonSquare: 0

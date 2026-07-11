@@ -3,7 +3,8 @@
     "references": [
         "UnboundLib",
         "ModdingUtils",
-        "ClassesManagerReborn"
+        "ClassesManagerReborn",
+        "FancyCardBar"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
@@ -13,7 +14,8 @@
     "precompiledReferences": [
         "0Harmony.dll",
         "BepInEx.dll",
-        "Assembly-CSharp.dll"
+        "Assembly-CSharp.dll",
+        "ToggleCardsCategories.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": []
