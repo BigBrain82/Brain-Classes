@@ -350,7 +350,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 55179117ec5519d47a8ad610230cdf52, type: 3}
   weaponName: Roundabout
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114991624294628612
 MonoBehaviour:
   m_ObjectHideFlags: 0

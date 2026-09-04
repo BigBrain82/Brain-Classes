@@ -358,7 +358,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 24ec440d1db486948b52aa2be805bd87, type: 3}
   weaponName: Converge
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114886499888259802
 MonoBehaviour:
   m_ObjectHideFlags: 0

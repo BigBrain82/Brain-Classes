@@ -354,7 +354,7 @@ MonoBehaviour:
   icon: {fileID: 3811286065601277591, guid: 20fdade664554c4499a014a184976ea8, type: 3}
   weaponName: Peashooter
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114412913169016728
 MonoBehaviour:
   m_ObjectHideFlags: 0

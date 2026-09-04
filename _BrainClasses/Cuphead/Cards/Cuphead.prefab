@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 114577244942970458}
   - component: {fileID: 114148847181117618}
   - component: {fileID: 114445512088357126}
+  - component: {fileID: 114627427812484988}
   m_Layer: 0
   m_Name: Cuphead
   m_TagString: Untagged
@@ -122,7 +123,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 0}
+  AddObjectToPlayer: {fileID: 422165444109727392, guid: 80e09f788eeafb843b14a21e6f3d7cfb,
+    type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
@@ -364,4 +366,17 @@ MonoBehaviour:
   categoryPath: Cuphead
   CategoryPath: 
   categoryAsset: {fileID: 0}
-  Priority: 0
+  Priority: 1
+--- !u!114 &114627427812484988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9fe1ea2be6f9745b25b43196209866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards: []

@@ -358,7 +358,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 7d17c5be282b6444fbd92a3829a9ebb4, type: 3}
   weaponName: Lobber
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114750614616297970
 MonoBehaviour:
   m_ObjectHideFlags: 0

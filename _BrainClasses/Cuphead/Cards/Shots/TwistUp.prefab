@@ -354,7 +354,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 278a5118c0534774eafa3a1957e08369, type: 3}
   weaponName: Twist-Up
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114160512997101274
 MonoBehaviour:
   m_ObjectHideFlags: 0

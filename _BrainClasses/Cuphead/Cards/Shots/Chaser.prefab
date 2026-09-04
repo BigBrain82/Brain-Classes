@@ -354,7 +354,7 @@ MonoBehaviour:
   icon: {fileID: 3811286065601277591, guid: b9438db9375dcd14ba0a2f013d5123d9, type: 3}
   weaponName: Chaser
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114043700799905508
 MonoBehaviour:
   m_ObjectHideFlags: 0

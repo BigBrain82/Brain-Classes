@@ -359,7 +359,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 32de65b0ab24063408a038b46a80dfc5, type: 3}
   weaponName: Spread
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114898302861851600
 MonoBehaviour:
   m_ObjectHideFlags: 0

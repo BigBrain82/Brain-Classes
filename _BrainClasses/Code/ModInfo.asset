@@ -15,7 +15,7 @@ MonoBehaviour:
   ModName: Brain_Classes
   Author: 
   Version: 1.0.10
-  WebsiteURL: 
+  WebsiteURL: https://github.com/BigBrain82/Brain-Classes
   Description: 
   BeforeBuildCommand: 
   AfterBuildCommand: 

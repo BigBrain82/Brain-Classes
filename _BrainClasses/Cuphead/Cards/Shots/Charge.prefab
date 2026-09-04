@@ -355,7 +355,7 @@ MonoBehaviour:
   icon: {fileID: 8368532582125875477, guid: 78a7bfdffaf27f24ea843323a5360df0, type: 3}
   weaponName: Charge
   ignoreSoundChanges: 0
-  disableBasicGun: 0
+  disableBasicGun: 1
 --- !u!114 &114972030406709194
 MonoBehaviour:
   m_ObjectHideFlags: 0

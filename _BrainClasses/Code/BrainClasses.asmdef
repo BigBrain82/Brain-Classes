@@ -4,7 +4,8 @@
         "UnboundLib",
         "ModdingUtils",
         "ClassesManagerReborn",
-        "FancyCardBar"
+        "FancyCardBar",
+        "RarityLib"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
@@ -15,7 +16,8 @@
         "0Harmony.dll",
         "BepInEx.dll",
         "Assembly-CSharp.dll",
-        "ToggleCardsCategories.dll"
+        "ToggleCardsCategories.dll",
+        "Rarity Bundle.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": []
