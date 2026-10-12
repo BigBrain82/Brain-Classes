@@ -436,7 +436,7 @@ MonoBehaviour:
     type: 2}
   soundReloadComplete: {fileID: 11400000, guid: 09d2549a16a71b348b404edc22baa73d,
     type: 2}
-  maxAmmo: 3
+  maxAmmo: 6
   reloadTime: 1
   reloadTimeMultiplier: 1
   reloadTimeAdd: 0

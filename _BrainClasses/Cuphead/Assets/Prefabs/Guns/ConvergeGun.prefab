@@ -117,7 +117,7 @@ MonoBehaviour:
   shootPosition: {fileID: 4866367794591596}
   player: {fileID: 0}
   isReloading: 0
-  damage: 0.5
+  damage: 0.7
   reloadTime: 1
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
@@ -147,8 +147,8 @@ MonoBehaviour:
   dmgMOnBounce: 1
   drag: 0
   dragMinSpeed: 1
-  spread: 0.1
-  evenSpread: 10
+  spread: 0.125
+  evenSpread: 15
   percentageDamage: 0
   cos: 0
   slow: 0

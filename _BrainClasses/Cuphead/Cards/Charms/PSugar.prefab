@@ -321,7 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Cuphead
   cardType: 16
-  maxAllowed: 1
+  maxAllowed: 0
   requirementType: 1
   singleReq: {fileID: 114421384111938668, guid: f394d855e1978014a8f082d16bdc2333,
     type: 3}

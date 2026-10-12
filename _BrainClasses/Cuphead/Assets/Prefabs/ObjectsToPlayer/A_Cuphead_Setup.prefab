@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &422165444109727392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5408049552443245246}
+  - component: {fileID: 114530607337446284}
+  - component: {fileID: 114823865228059106}
+  - component: {fileID: 114335434723503412}
+  m_Layer: 0
+  m_Name: A_Cuphead_Setup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5408049552443245246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422165444109727392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 331.88226, y: -312.05655, z: 290.19516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114530607337446284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422165444109727392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9fe1ea2be6f9745b25b43196209866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 114421384111938668, guid: 1dca881e286062544953aafdd87db038, type: 3}
+  - {fileID: 114421384111938668, guid: a8df873a03463f743814338a315d93a3, type: 3}
+  - {fileID: 114421384111938668, guid: dc5959ac48e613e4b8747c6497478183, type: 3}
+  - {fileID: 114421384111938668, guid: 151bfa810d5b20d4f8ed0a5ba3390c6e, type: 3}
+  - {fileID: 114421384111938668, guid: 04d9cefa5e474784dbe74089df728e27, type: 3}
+  - {fileID: 114421384111938668, guid: 14dbb0665045fa246b730856b0296fc3, type: 3}
+  - {fileID: 114421384111938668, guid: c1405a745cb84c5449452f78591c9910, type: 3}
+  - {fileID: 114421384111938668, guid: bda4383d5569e124394811d2ca139815, type: 3}
+  - {fileID: 114421384111938668, guid: cf96ac22e81598443b7d1bc6912c7783, type: 3}
+  SMeter: {fileID: 1551247651366032141, guid: 7d9e7b14e56a2844d9904fe53164d377, type: 3}
+--- !u!114 &114823865228059106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422165444109727392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62c0a98bfc5d624ba23594d2da5bf85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114151584624170356, guid: 7d9e7b14e56a2844d9904fe53164d377,
+          type: 3}
+        m_MethodName: ExGain
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &114335434723503412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422165444109727392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb95780b533af44594a2c1fe1ad0163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peaSound: {fileID: 8300000, guid: a36beb1884b1cc94a8ed8bfe0c26b8d5, type: 3}
+  chaserSound: {fileID: 8300000, guid: c30d7363f5c401748b20283f2e13bb73, type: 3}
+  lobberSound: {fileID: 8300000, guid: 6b1cd9182ca73a54e943fee7b9979407, type: 3}
+  spreadSound: {fileID: 8300000, guid: c19fe63e17e27144ca060f3f50bc4b34, type: 3}
+  roundSound: {fileID: 8300000, guid: 5de1ab02de253b841be4ed967b7f7db3, type: 3}
+  convergeSound: {fileID: 8300000, guid: 45775756afe26a64586b1f84865d9e32, type: 3}
+  crackSound: {fileID: 8300000, guid: 460b9ad27b551b84b949e30d7865bf2c, type: 3}
+  twistSound: {fileID: 8300000, guid: 994e452b13cc3ac4aaf677af109060cf, type: 3}
+  chargeSound: {fileID: 8300000, guid: 08365110b3c6f5e49b283ea9ac0489c9, type: 3}

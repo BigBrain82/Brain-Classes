@@ -102,7 +102,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Speed (Charged)
   rarity: 2
-  cardArt: {fileID: 3811286065601277591, guid: 9eb7044ff4ea91143bbb5870c873ba4e, type: 3}
+  cardArt: {fileID: 8368532582125875477, guid: 703971d80cb8fa1458d1d150c157f250, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}

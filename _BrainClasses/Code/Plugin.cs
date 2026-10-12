@@ -11,8 +11,7 @@ using ToggleCardsCategories;
 [BepInDependency("root.classes.manager.reborn")]
 [BepInDependency("com.aalund13.rounds.toggle_cards_categories")]
 
-
-[BepInPlugin("brain.classes.mod", "Brain Classes", "1.0.10")]
+[BepInPlugin("brain.classes.mod", "Brain Classes", "1.1.0")]
 [BepInProcess("Rounds.exe")]
 
 public class Plugin : BaseUnityPlugin {
@@ -26,4 +25,4 @@ public class Plugin : BaseUnityPlugin {
     void Start() {
         asset.LoadAsset<GameObject>("ModCards").GetComponent<CardHolder>().RegisterCards();
     }
-}
+}   

@@ -125,7 +125,7 @@ MonoBehaviour:
   attackSpeed: 0.5
   projectileSpeed: 3
   projectielSimulatonSpeed: 1
-  gravity: 1
+  gravity: 0
   damageAfterDistanceMultiplier: 1
   bulletDamageMultiplier: 1
   multiplySpread: 1
@@ -157,7 +157,7 @@ MonoBehaviour:
   chargeEvenSpreadTo: 0
   chargeSpeedTo: 1.1
   chargeRecoilTo: 0
-  chargeNumberOfProjectilesTo: 1
+  chargeNumberOfProjectilesTo: 0
   destroyBulletAfter: 0
   forceSpecificAttackSpeed: 0
   lockGunToDefault: 0

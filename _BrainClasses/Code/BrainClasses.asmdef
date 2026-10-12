@@ -17,7 +17,14 @@
         "BepInEx.dll",
         "Assembly-CSharp.dll",
         "ToggleCardsCategories.dll",
-        "Rarity Bundle.dll"
+        "Rarity Bundle.dll",
+        "WeaponsManager.dll",
+        "SimulationChamber.dll",
+        "PhotonUnityNetworking.dll",
+        "ProjectileChargePatch.dll",
+        "GunProjectileSizePatch.dll",
+        "BlockForcePatch.dll",
+        "EvenSpreadPatch.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": []

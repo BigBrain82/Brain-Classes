@@ -97,8 +97,12 @@ MonoBehaviour:
     amount: +15%
     simepleAmount: 0
     stat: Attack Speed
-  rarity: 0
-  cardArt: {fileID: 8368532582125875477, guid: f96a013491fe35d4182b266a288caded, type: 3}
+  - positive: 1
+    amount: +33%
+    simepleAmount: 0
+    stat: Super Rate
+  rarity: 1
+  cardArt: {fileID: 8368532582125875477, guid: 408a6c9bc7710fd458a58b1c949dc411, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -120,7 +124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 0}
+  AddObjectToPlayer: {fileID: 7749789472058068891, guid: 2896448c7541c024cb9fb0e896cec671,
+    type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
@@ -324,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Cuphead
   cardType: 16
-  maxAllowed: 1
+  maxAllowed: 0
   requirementType: 1
   singleReq: {fileID: 114421384111938668, guid: f394d855e1978014a8f082d16bdc2333,
     type: 3}

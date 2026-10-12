@@ -101,7 +101,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Bullet Speed
   rarity: 2
-  cardArt: {fileID: 3811286065601277591, guid: fe68042d4da56874690000c71eff098c, type: 3}
+  cardArt: {fileID: 8368532582125875477, guid: d62d7d1b1918972438dc2e4e33ff7106, type: 3}
   sprite: {fileID: 0}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}

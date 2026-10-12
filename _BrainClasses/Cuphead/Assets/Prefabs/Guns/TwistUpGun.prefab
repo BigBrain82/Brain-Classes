@@ -135,7 +135,7 @@ MonoBehaviour:
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
-  numberOfProjectiles: 3
+  numberOfProjectiles: 2
   bursts: 0
   reflects: 0
   smartBounce: 0

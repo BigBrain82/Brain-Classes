@@ -101,7 +101,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Gravity
   rarity: 0
-  cardArt: {fileID: 3811286065601277591, guid: bd6c1b485450b0f479c3e73c7f26d8d4, type: 3}
+  cardArt: {fileID: 8368532582125875477, guid: e0180bbe0ff66864bbdc7bc32c948899, type: 3}
   sprite: {fileID: 0}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}

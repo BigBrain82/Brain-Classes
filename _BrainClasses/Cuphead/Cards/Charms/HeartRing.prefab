@@ -87,11 +87,11 @@ MonoBehaviour:
     parries.
   cardStats:
   - positive: 1
-    amount: +15
+    amount: +20
     simepleAmount: 0
     stat: Regen
   - positive: 1
-    amount: +15%
+    amount: +50%
     simepleAmount: 0
     stat: Life Steal
   rarity: 1
@@ -100,7 +100,7 @@ MonoBehaviour:
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
   categories: []
-  allowMultiple: 0
+  allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
   colorTheme: 0
@@ -129,8 +129,8 @@ MonoBehaviour:
   fastSlow: 0
   secondsToTakeDamageOver: 0
   numberOfJumps: 0
-  regen: 15
-  lifeSteal: 0.15
+  regen: 20
+  lifeSteal: 0.5
   refreshOnDamage: 0
   automaticReload: 1
   respawns: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Cuphead
   cardType: 16
-  maxAllowed: 1
+  maxAllowed: 0
   requirementType: 1
   singleReq: {fileID: 114421384111938668, guid: f394d855e1978014a8f082d16bdc2333,
     type: 3}
